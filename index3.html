@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>landing page</title>
+		<meta name="description" content="A draggable menu that shows a thumbnail preview of an image grid" />
+		<meta name="keywords" content="draggable, menu, navigation, thumbnails, grid, javascript, gsap, web design, layout" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="logo1.png">
+		<link rel="stylesheet" href="https://use.typekit.net/crf4rue.css">
+		<link rel="stylesheet" type="text/css" href="src/css/base3.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<style>
+            a.active{
+              color: white;
+            }
+            a:hover{
+              color: white;
+            }
+          </style>
+		<main>
+			<div class="frame">
+				<div class="frame__pagetitle">According to your mood..</div>
+				<div class="frame__title-wrap">
+					<h1 class="frame__title"></h1>
+					<p class="frame__tagline"></a></p>
+				</div>
+				<div class="frame__links">
+					<a href="index.html">Home</a>
+					<a href="index3.html" class="active">page2</a>
+					<a href="contact.html">next</a>
+				</div>
+				<div class="frame__social">
+					<a href="index.html" aria-label="Link to Yuri's Behance profile"><img src="logo1.png" class="frame__social-behance" alt="Behance Logo"/></a>
+				</div>
+			</div>
+			<div class="page page--preview">
+				<div class="grid-wrap">
+					<div class="grid grid--layout-1">
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://blog.wego.com/wp-content/uploads/saltiola-photography-1nBvotYiZQI-unsplash-1024x727.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.classicjourneys.com/wp-content/uploads/blog-import/20210804_214011_servlet.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.winni.in/celebrate-relations/wp-content/uploads/2019/03/f2.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/09/thailand_boat-ride.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://happytowander.com/wp-content/uploads/Places-to-visit-in-France-besides-Paris-Happy-to-Wander-6.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://i0.wp.com/files.tripstodiscover.com/files/2019/06/Bergen-Norway.jpg?resize=784%2C588)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Imagica-Theme-Park.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/Places-near-Alleppey.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.planetware.com/wpimages/2021/12/february-best-places-to-travel-stay-overwater-bungalow-maldives.jpg)"></div></div>
+					</div>
+					<div class="grid grid--layout-2">
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://ak.jogurucdn.com/media/image/p15/media_gallery-2017-02-18-12-1_158d55a23604574307989034a70aa892.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://mysterioustrip.com/wp-content/uploads/2019/12/landscape-2990060_1920-1024x580.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.explorewithlora.com/wp-content/uploads/2019/09/pakistan.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.mondayfeelings.com/wp-content/uploads/2022/07/Pakistan_Fairy-Meadows.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://nomadparadise.com/wp-content/uploads/2021/04/pakistan-places-13-1024x683.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://static.toiimg.com/thumb/60154328/Vembanad-Lake-Kumarakom.jpg?width=1200&height=900)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://img.freepik.com/premium-photo/tourism-mountains-lifestyle-nature-people-concept-girl-mountains-mountaineering-travel-lifestyle-concept-landscape-background-vacations-adventure-journey-outdoor-human-nature_222877-14233.jpg?w=2000)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url('https://cityspideynews.s3.amazonaws.com/uploads/spidey/202301/cover-(22)-1673596250.webp')"></div></div>
+					</div>
+					<div class="grid grid--layout-3">
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images7.alphacoders.com/897/897920.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images6.alphacoders.com/374/374737.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images7.alphacoders.com/428/428190.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images.unsplash.com/photo-1435034568314-8303dbda4b8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2lyY3VzfGVufDB8fDB8fA%3D%3D&w=1000&q=80)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images.pexels.com/photos/261429/pexels-photo-261429.jpeg?cs=srgb&dl=pexels-pixabay-261429.jpg&fm=jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://wallpaperaccess.com/full/1933573.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://wallpapercave.com/wp/wp3694675.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images8.alphacoders.com/414/414699.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images5.alphacoders.com/285/thumb-1920-285419.jpg)"></div></div>
+					</div>
+					<div class="grid grid--layout-4">
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://wallpaperaccess.com/full/504993.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://www.hindugodwallpaper.com/downloadfiles.php?id=2905)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images.unsplash.com/photo-1597133541155-8f2f9da143a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRlbXBsZXxlbnwwfHwwfHw%3D&w=1000&q=80)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images.wallpapersden.com/image/download/prambanan-temple-hd_bWxnaGeUmZqaraWkpJRnamVlrWZqZ20.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://cdn.wallpapersafari.com/55/96/W2ibgx.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://images.wallpapersden.com/image/download/temple-hd-fantasy-digital-art_bWxpbWmUmZqaraWkpJRobWllrWdlZWU.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://w0.peakpx.com/wallpaper/174/437/HD-wallpaper-fantasy-world-art-luminos-waterfall-temple-chengwei-xu.jpg)"></div></div>
+						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(https://wallpaperaccess.com/full/6417778.jpg)"></div></div>
+					</div>
+					
+					<button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"/></svg></button>
+				</div><!-- /grid-wrap -->
+			</div><!-- /page -->
+			<div class="menu-wrap">
+				<div class="menu-draggable"></div>
+				<nav class="menu">
+					<div class="menu__item">
+						<a class="menu__item-link">Happy</a>
+						<a class="menu__item-explore">explore</a>
+					</div>
+					<div class="menu__item">
+						<a class="menu__item-link">Sad</a>
+						<a class="menu__item-explore">explore</a>
+					</div>
+					<div class="menu__item">
+						<a class="menu__item-link">Bored</a>
+						<a class="menu__item-explore">explore</a>
+					</div>
+					<div class="menu__item">
+						<a class="menu__item-link">Anxious</a>
+						<a class="menu__item-explore">explore</a>
+					</div>
+					
+				</nav><!--menu-->
+			</div><!--/menu-wrap-->
+		</main>
+		<div class="cursor">
+			<div class="cursor__inner cursor__inner--circle">
+				<div class="cursor__side cursor__side--left"></div>
+				<div class="cursor__side cursor__side--right"></div>
+			</div>
+		</div>
+		<script src="src/js/imagesloaded.pkgd.min3.js"></script>
+		<script src="src/js/charming.min3.js"></script>
+		<script src="src/js/TweenMax.min3.js"></script>
+		<script src="src/js/draggabilly.pkgd.min3.js"></script>
+		<script src="src/js/demo3.js"></script>
+	</body>
+</html>
